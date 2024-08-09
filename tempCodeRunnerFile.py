@@ -1,5 +1,7 @@
 
+str1=input("enter a comma seprarted word as a input")
+list=str1.split(',')
+list.sort()
+new_str=",".join(map(str,list))
 
-list=[3,4,0,-2,9,0,-4]
-list.append(10)
-print(list)
+print(new_str)
